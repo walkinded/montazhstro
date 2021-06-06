@@ -1,0 +1,117 @@
+
+
+.bg_color {
+  background-color: #ebf4fd;
+}
+
+.fabr_install__item {
+
+}
+
+.fabr_install_title h2 {
+  font-size: 36px;
+  color: #2b1f18;
+  font-weight: 500;
+
+  margin-bottom: 25px;
+}
+
+.fabr_install_column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fabr_install_column .forma {
+  position:initial;
+  height: max-content;
+}
+
+.fabr_install_text_box {
+  max-width: 890px;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.fabr_install_text_box p {
+  margin-bottom: 35px;
+}
+
+.fabr_install_text_box p:last-child {
+  margin-bottom: 0px;
+}
+
+.font_bold {
+  font-weight: 500;
+}
+
+.font_custom_size {
+  font-size: 18px;
+}
+
+.fadr_install-li_box {
+  margin-top: 40px;
+  max-width: 850px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.fadr_install-li_box li {
+  max-width: 306px;
+  list-style-type: none;
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 45px;
+}
+
+.fadr_install-li_box li img {
+  margin-right: 15px;
+  margin-top: -6px;
+  height: max-content;
+}
+
+.fabr_install_2 {}
+
+.fabr_install_2__content {
+  padding: 25px 0;
+}
+
+.fabr_install_2__item {}
+
+.fabr_install_2__column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.fabr_install_2_text_box {
+  max-width: 666px;
+}
+
+.fabr_install_2_text_box p {
+  
+  font-size: 15px;
+
+  margin-bottom: 30px;
+}
+
+.fabr_install_2_text_box p:last-child {
+  margin-top: 0px;
+}
+
+._install_2_img_l {
+  max-width: 666px;
+  width: 100%;
+  max-height: 375px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+._install_2_img_s {
+  max-width: 666px;
+  width: 100%;
+  max-height: 315px;
+  border-radius: 10px;
+  margin-right: 20px;
+}

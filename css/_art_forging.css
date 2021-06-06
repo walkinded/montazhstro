@@ -1,0 +1,18 @@
+.art_forging {
+
+}
+
+.art_forging .work__item_column-box {
+  max-width: 320px;
+  width: 100%;
+  min-height: 110px;
+}
+
+.art_forging .work__item_column_block2 {
+  margin-bottom: 55px;
+}
+
+.art_forging .column_content_img {
+  margin-right: 0 !important;
+  margin-left: 30px;
+}

@@ -1,0 +1,222 @@
+.constructionWork {
+
+  color: #2b1f18;
+
+  flex: 1;
+}
+
+.construction-work__content {}
+
+.construction-work__item {}
+
+.cw_item_title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.construction-work__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.construction-work_box {
+  max-width: 666px;
+  min-height: 400px;
+  border-radius: 15px;
+  box-shadow: 0 12px 20px rgb(82 111 132 / 25%);
+
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.cw_box_img {
+  min-width: 220px;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 15px 0 0 15px;
+}
+
+.cw_box_img img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.cw_box_text {
+  padding: 35px 30px 10px 30px;
+}
+
+.cw_box_text_title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #1465b9;
+
+  margin-bottom: 20px;
+}
+
+.cw_box_text_desc {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.cw_item_container {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: 45px;
+}
+
+.cw_item_box_content {
+  max-width: 295px;
+  min-height: 162px;
+
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 26px 10px 10px 25px;
+
+  background-color: #ebf4fd;
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.cw_item_box_content:hover {
+  box-shadow: 0 12px 20px rgb(82 111 132 / 25%);
+  transition: 0.3s;
+}
+
+.box_content_title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1465b9;
+  text-transform: uppercase;
+
+  margin-bottom: 10px;
+}
+
+.box_content_desc {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.box_large {
+  max-width: 642px;
+  width: 100%;
+}
+
+.request {color: white;}
+
+.request_bg_img {
+  background: url(../img/forma.jpg) no-repeat center top / cover;
+  width: 100%;
+  height: 620px;
+}
+
+.request__content {
+  padding-top: 100px;
+}
+
+.request__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.request__item_box {
+  position: relative;
+}
+
+.request__item_title {
+  font-size: 48px;
+  font-weight: 500;
+  max-width: 605px;
+}
+
+.request__item_discount {
+  width: 166px;
+  height: 166px;
+
+  background-color: #509dea;
+
+  box-shadow: inset 0px 10px 10px -10px rgba(0,0,0,0.5);
+
+  border-radius: 50%;
+  border: 15px solid white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 30px;
+  font-weight: 500;
+
+  position: absolute;
+  top: 122px;
+  right: 0px;
+}
+
+.percent {
+  display: flex;
+  font-size: 72px;
+  font-weight: 600;
+
+  justify-content: flex-end;
+}
+
+.percent_symbol {
+  font-size: 50px;
+  font-weight: 600;
+  height: max-content;
+  position: relative;
+  top: 22px;
+}
+
+
+.cost {
+  max-width: 350px;
+  height: max-content;
+  border-left: 3px solid #509dea;
+
+  padding: 13px 25px;
+
+  font-size: 24px;
+
+  margin-top: 140px;
+  margin-left: 50px;
+}
+
+.request__item .forma {
+  max-width: 303px;
+  width: 100%;
+  height: 358px;
+  background-color: #fdfeff;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 30px 10px;
+  box-shadow: 0 12px 20px rgb(82 111 132 / 25%);
+
+  color: #2b1f18;
+
+  position: inherit;
+  top: 0px;
+}
+
+.forma_subtitle {
+  font-size: 14px;
+  text-align: center;
+}
+
+.request__item .custom_btn {
+  max-width: 200px;
+  width: 100%;
+}
+
+.cost_arrow {
+  position: absolute;
+  right: 77px;
+}

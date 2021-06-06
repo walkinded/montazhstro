@@ -1,0 +1,43 @@
+.breadcrumb {
+  padding: 20px 0;
+}
+
+.breadcrumb ol {
+  display: flex;
+}
+
+.breadcrumb li {
+  margin-right: 5px;
+}
+
+.breadcrumb li::marker {
+  content: " ";
+}
+
+.breadcrumb_font_style:last-child  {
+  color: #2b1f18;
+}
+
+.breadcrumb_font_style {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2b1f18;
+}
+
+.breadcrumb a {
+  color: #2b1f18;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  border-bottom: 1px solid #2b1f18;
+}
+
+.span_m_l_20 {
+  margin-left: 5px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #2b1f18;
+}

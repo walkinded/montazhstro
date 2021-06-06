@@ -1,0 +1,81 @@
+.forma {
+  max-width: 327px;
+  width: 100%;
+  min-height: 400px;
+  background-color: #fdfeff;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 30px 10px;
+  box-shadow: 0 12px 20px rgb(82 111 132 / 25%);
+
+  color: #2b1f18;
+
+  position: relative;
+  top: -60px;
+}
+
+.forma_title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+.custom_btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+
+  width: 261px;
+  height: 50px;
+  background-color: #f7850a;
+
+  border-radius: 8px;
+  border: 0;
+  border-bottom: 5px solid #e57700;
+  box-shadow: 0 5px 20px rgb(229 119 0 / 25%);
+
+  transition: 0.3s;
+}
+
+input[type=text],
+input[type=tel]{
+  max-width: 261px;
+  width: 100%;
+  height: 47px;
+  padding: 12px 17px;
+
+  box-sizing: border-box;
+  background-color: #f4f6f8;
+
+  border-radius: 8px;
+  border: 0;
+  border-top: 3px solid #e6e8eb;
+}
+
+textarea {
+  max-width: 261px;
+  width: 100%;
+  height: 100px;
+  padding: 12px 17px;
+
+  box-sizing: border-box;
+  background-color: #f4f6f8;
+
+  border-radius: 8px;
+  border: 0;
+  border-top: 3px solid #e6e8eb;
+
+  resize: none;
+}
+
+.custom_btn:hover {
+  transition: 0.3s;
+  border-bottom: 0px solid #e57700;
+  box-shadow: 0 5px 20px rgb(229 119 0 / 25%);
+}
