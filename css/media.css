@@ -82,6 +82,18 @@
     max-height: 502px !important;
   }
 
+  .set_resources-box_text {
+    width: 395px;
+  }
+
+  .our_company_color_box2 {
+    width: 50%;
+  }
+
+  .our_company_img_s {
+    width: 666px;
+    /* width: 100%; */
+  }
 
 }
 /* Large Devices, Wide Screens */
@@ -102,6 +114,10 @@
   footer .box-container {
     width: auto;
     padding: 0 20px;
+  }
+
+  footer {
+    max-height: max-content;
   }
 
   .header__logo-text {
@@ -405,6 +421,32 @@
     max-width: 100% !important;
   }
 
+  .our_company__column {
+    flex-direction: column ;
+    align-items: center;
+  }
+
+  .our_company_img_s:nth-child(1n) {
+    margin-right: 0px;
+  }
+  
+  .our_company_img_s:nth-child(2n) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .our_company_img_l {
+    margin-left: 0px;
+  }
+
+  .our_company_color_box2 {
+    width: 100%;
+  }
+  .our_company_img_s {
+    max-width: 666px;
+    width: 100%;
+  }
+
 }
 
 @media only screen and (max-width : 1024px) {
@@ -442,6 +484,16 @@
 
   .fabr_install_title h2 {
     font-size: 25px !important;
+  }
+
+  .set_resources__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partners__title {
+    font-size: 30px;
   }
 }
 
@@ -491,6 +543,12 @@
   .cost {
     font-size: 18px !important;
   }
+  .our_company_color_box {
+    width: auto;
+  }
+  .our_company_color_box2 {
+    width: auto;
+  }
 }
 
 @media only screen and (max-width : 699px) {
@@ -521,6 +579,19 @@
   }
   .span_m_l_20 {
     font-size: 10px !important;
+  }
+
+  .set_resources__column {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .set_resources_title {
+    font-size: 22px;
+  }
+  .set_resources-box_text {
+    width: auto;
   }
 }
 
