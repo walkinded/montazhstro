@@ -21,3 +21,7 @@
 9. Услуги https://walkinded.github.io/montazhstro/our_services.html
 
 10. Художественная ковка https://walkinded.github.io/montazhstro/art_forging.html
+
+11. О компании https://walkinded.github.io/montazhstro/our_company.html
+
+12. Наши работы https://walkinded.github.io/montazhstro/our_works.html
